@@ -1,5 +1,4 @@
-  
-your_profile_name: default # This name should match the 'profile' key in your dbt_project.yml
+profile_name: default # This name should match the 'profile' key in your dbt_project.yml
 target: dev
 outputs:
   dev:
@@ -15,4 +14,3 @@ outputs:
     client_session_keep_alive: false # Optional: Set to true for long-running sessions
     query_tag: dbt_project_tag # Optional: A tag to identify queries from this dbt project
 
- 
