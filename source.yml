@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: PoCBIPI
+    database: "{{ target.database }}"   # Dynamically picks DEV or PROD
+    schema: ARIBA
+    tables:
+      - name: PATIENT_HEADER
