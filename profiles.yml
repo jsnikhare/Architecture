@@ -1,0 +1,18 @@
+  
+your_profile_name: default # This name should match the 'profile' key in your dbt_project.yml
+target: dev
+outputs:
+  dev:
+    type: snowflake
+    account: IWJNDUW.ZS11827 # e.g., ab12345.us-east-1.aws
+    user: JSNIKHARE
+    password: Snowflaketest@123 # ⚠️ Consider using environment variables for security
+    role: ACCOUNTADMIN # e.g., DBT_ROLE
+    database: DEV_SDH_DB # e.g., DBT_DB
+    warehouse: COMPUTE_WH # e.g., DBT_WH
+    schema: ARIBA # e.g., DBT_SCHEMA
+    threads: 4 # Number of concurrent threads for dbt operations (typically 1-8)
+    client_session_keep_alive: false # Optional: Set to true for long-running sessions
+    query_tag: dbt_project_tag # Optional: A tag to identify queries from this dbt project
+
+ 
