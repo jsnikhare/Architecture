@@ -1,7 +1,7 @@
+
 {{ config(
     materialized="table",
-    database="DEV_GR_FDH_DB",
-    schema = "COMMERCIAL"
+    database="DEV_GR_FDH_DB"
 ) }}
 
 with PATIENT_HEADER_FILTERED as (
