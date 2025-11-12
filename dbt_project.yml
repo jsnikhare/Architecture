@@ -5,7 +5,7 @@ name: "Architecture"
 version: "1.0.0"
 config-version: 2
 
-profile: "default" # Name of the profile in profiles.yml to use
+profile: "default" # Name of the profile in profiles.yml to use 
 
 # This setting configures which "profile" dbt uses for this project.
 
