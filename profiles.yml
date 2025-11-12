@@ -7,7 +7,7 @@ outputs:
     user: JSNIKHARE
     password: Snowflaketest@123
     # done by Jitendra
-    role: ACCOUNTADMIN # e.g., DBT_ROLE
+    role: ACCOUNTADMIN # e.g., DBT_ROLE 
     database: DEV_SDH_DB # e.g., DBT_DB
     warehouse: COMPUTE_WH # e.g., DBT_WH
     schema: ARIBA # e.g., DBT_SCHEMA
